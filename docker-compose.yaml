@@ -9,6 +9,7 @@ services:
     env_file:
       - ./.env
   web:
+    image: truedi1905/yambd
     build: .
     restart: always
     volumes:
