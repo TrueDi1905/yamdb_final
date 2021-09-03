@@ -57,7 +57,7 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         script: |
           sudo docker pull truedi1905/yamdb
-          sudo docker stop
+          sudo docker-compose stop
           sudo docker-compose rm web
           touch .env
           echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
