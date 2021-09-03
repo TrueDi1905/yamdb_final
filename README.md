@@ -11,6 +11,11 @@ Django 3.0.5
 - docker-compose exec web python manage.py createsuperuser
 Для заполнения базы начальными данными введите команду:
 - docker-compose exec web python manage.py migrate --noinput
+### Тест
+Вы можете протестировать проект по ссылке http://130.193.55.11/admin/
+- login: fable@yandex.ru
+- password: dima1212
+- Ссылка на DockerHub - https://hub.docker.com/repository/docker/truedi1905/yamdb
 ### Автор
 Дмитрий
 
