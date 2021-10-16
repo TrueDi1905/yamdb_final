@@ -10,6 +10,8 @@ PostgreSQL 12.4
 Docker 20.10.5
 ### Установка
 Для запуска программы введите команду:
+- Склонируйте проект, установите зависимости, выполните миграции.
+Запустите проект 
 - docker-compose up
 Для создания суперпользователя введите команду:
 - docker-compose exec web python manage.py createsuperuser
@@ -22,5 +24,3 @@ Docker 20.10.5
 - Ссылка на DockerHub - https://hub.docker.com/repository/docker/truedi1905/yamdb
 ### Автор
 Дмитрий
-
-- ![example workflow](https://github.com/TrueDi1905/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
