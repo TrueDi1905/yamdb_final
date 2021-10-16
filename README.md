@@ -13,7 +13,7 @@
 - Склонируйте проект, установите зависимости, выполните миграции.
 - Запустите проект ``` docker-compose up ```
 - Для создания суперпользователя введите команду ``` docker-compose exec web python manage.py createsuperuser ```
-- Для заполнения базы начальными данными введите команду ``` docker-compose exec web python manage.py migrate --noinput 
+- Для заполнения базы начальными данными введите команду ``` docker-compose exec web python manage.py migrate --noinput ```
 ### Тест
 Вы можете протестировать проект по ссылке http://130.193.55.11/admin/ (на данный момент сервер неактивен)
 - login: fable@yandex.ru
